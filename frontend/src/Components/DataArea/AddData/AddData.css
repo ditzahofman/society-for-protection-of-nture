@@ -1,0 +1,37 @@
+.AddData{
+    text-align: center;
+}
+.AddData> .h2-card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(24, 118, 86);
+}
+.AddData >form {
+    box-sizing: border-box;
+    border: solid rgb(9, 95, 14) 3px;
+    display: inline-block;
+    width:30%;
+    margin: 1% ;
+    background-color: rgb(240, 237, 234);
+    text-align: center;
+    }
+
+    form>.button{
+        width: 70%;
+        color: rgb(26, 34, 27) !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+        font-weight: 700 !important;
+        background-color: rgb(222, 214, 199) !important;
+        margin: 3% !important;
+        border: solid 1px rgb(12, 93, 42) !important;
+        }
+        
+        .AddData>form>.textFiled ,input {
+            width: 70%;
+            margin: 4%  
+        }
+        .AddData>form>,input{
+            width: 70%;
+            margin: 4%  
+        }

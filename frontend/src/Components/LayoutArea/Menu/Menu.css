@@ -1,0 +1,11 @@
+.Menu {
+    display: inline;
+      text-align: left ;
+     
+      
+  }
+  .Menu>a{
+      color: rgb(15, 85, 41);
+      font-size: x-large;
+      margin: 1%;
+  }

@@ -1,0 +1,16 @@
+.PageNotFound div:nth-child(1) {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.PageNotFound div:nth-child(2) {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.PageNotFound img {
+	width: 34%;
+}
+.PageNotFound{
+    text-align: center;
+}

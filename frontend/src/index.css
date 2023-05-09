@@ -1,0 +1,8 @@
+body ,html , #root{
+  height: 100%;
+  background-image: url("../src/Assets/Images/nof.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:600px;
+ 
+}

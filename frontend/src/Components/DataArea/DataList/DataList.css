@@ -1,0 +1,17 @@
+.DataList .cards {
+	display: flex;
+text-align: center; 
+}
+.DataList table, th ,td{
+	border: 1px rgb(86, 82, 12) solid;
+	text-align: center;
+	background-color: aliceblue;
+}
+.DataList {
+	text-align: center;
+
+}
+
+.DataList .Mode{
+	font-size:100px ;
+}
