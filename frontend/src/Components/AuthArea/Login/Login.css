@@ -1,0 +1,16 @@
+.Login > form {
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid green;
+    background-image: linear-gradient(90deg, rgb(150, 173, 150), lightskyblue);
+    border-radius: 10px;
+}
+
+.Login .textFiled, .Login .button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    color: rgb(21, 20, 19);
+}

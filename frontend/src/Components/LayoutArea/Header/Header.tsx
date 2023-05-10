@@ -1,4 +1,5 @@
 
+import AuthMenu from "../../AuthArea/AuthMenu/AuthMenu";
 import Menu from "../Menu/Menu";
 import "./Header.css";
 
@@ -9,6 +10,7 @@ function Header(): JSX.Element {
             <h2 className="H2"> The company for the Nature and Parks Authority</h2>
             <hr/>
             <Menu/>
+            <AuthMenu/>
             <hr/>
         </div>
     );

@@ -1,0 +1,27 @@
+.Register > form {
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid blue;
+    background-image: linear-gradient(90deg, rgb(218, 227, 218), rgb(169, 201, 220));
+    border-radius: 10px;
+}
+
+.Register .textFiled, .Register  {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: rgb(129, 99, 62);
+    
+}
+.Register .button{
+width: 50%;
+color: black;
+background-color: azure;
+}
+
+.Register .ReCaptchaContainer {
+    transform: scale(0.82);
+    transform-origin: 0 0;
+}

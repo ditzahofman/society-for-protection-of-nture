@@ -6,9 +6,12 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import travelSitesService from "../../../Services/Travel-site-services"
 import { Button, MenuItem, TextField } from "@mui/material";
+import useVerifyLoggedIn from "../../../Utils/Block-logged-in";
 
 function AddData(): JSX.Element {
-    
+
+  useVerifyLoggedIn()
+  
     const [siteArea, setSiteArea] = useState<SiteAreaModel[]>([])
     const { handleSubmit, register } = useForm<TravelSiteModel>()
     const navigate = useNavigate();

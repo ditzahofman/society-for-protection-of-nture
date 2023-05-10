@@ -1,6 +1,7 @@
 import express, { Request, Response, NextFunction } from "express"
 import logic from "../5-logic/logic"
 import TravelSiteModel from "../4-models/travel-site-model"
+import blockNonLoggedIn from "../3-middleware/block-non-loged-in"
 
 const router = express.Router()
 
@@ -25,7 +26,7 @@ try {
 }
 })
 
-router.post("/travel-sites",async(request:Request,response:Response,next:NextFunction)=>{
+router.post("/travel-sites",[blockNonLoggedIn],async(request:Request,response:Response,next:NextFunction)=>{
     try {
         const newTravelSite = new TravelSiteModel(request.body)
         const addedTravelSite = logic.addNewTravelSite(newTravelSite)

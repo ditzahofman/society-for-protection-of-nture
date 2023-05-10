@@ -8,10 +8,13 @@ import DataCard from "../DataCard/DataCard";
 import travelSiteServices from "../../../Services/Travel-site-services";
 import { Apps, TableChart } from "@mui/icons-material";
 
+
 function DataList(): JSX.Element {
+ 
   const [siteArea, setSiteArea] = useState<SiteAreaModel[]>([])
   const [travelArea, setTravelArea] = useState<TravelSiteModel[]>([])
   const [mode, setMode] = useState<'table' | 'grid'>('table')
+  
   useEffect(() => {
     travelSitesService.getAllSiteArea()
       .then(s => setSiteArea(s))
